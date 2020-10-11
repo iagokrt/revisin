@@ -1,13 +1,13 @@
-# Form sample - Test Driven Development babel/mocha/chai
+# Knockoutjs Components
 
- -D eslint & knockoutjs & skeleton
+## Running locally
 
-[] Install DevDependencies
+Install dependecies via NPM or Yarn
 
-[] mocha chai @babel/core @babel/preset-env @babel/register
-[] setup babel
-[] setup test directory
-[] add test script
+- Run Build Command
 
-[] create initial tests
-[] e t c
+```
+  yarn build || npm run build
+```
+
+- Then open the index.html file
