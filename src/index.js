@@ -1,5 +1,9 @@
-const ko = require('knockout')
-const greeter = require('./components/Greeter')
+import ko from 'knockout'
 
-ko.components.register('greeter', greeter)
+import LabelUI from './components/LabelUI'
+import InputUI from './components/InputUI'
+
+ko.components.register('labelui', LabelUI)
+ko.components.register('inputui', InputUI)
+
 ko.applyBindings({})
