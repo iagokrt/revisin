@@ -14,36 +14,18 @@
       href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./src/styles/global-style.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
   </head>
   <body>
     <header>
       <h1>Knockout.js</h1>
-      <a href="src/pages/examples.html">See list of examples</a>
-      <img src="./src/assets/loading.gif" alt="gif" />
+      <greeter params="message: 'Hello world!'"></greeter>
     </header>
-    <main>
-      <aside class="">
-        <article id="example">
-          <label data-bind="text: userLabel"></label>
-          <input
-            type="text"
-            data-bind="value: userInputValue"
-            placeholder="type your username"
-          />
-          <button class="button" data-bind="click: buttonAction">Send</button>
-        </article>
-      </aside>
-    </main>
-    <footer>
-      <hr />
-      <p>Copyright© 2020, iagokrt</p>
-    </footer>
     <!--Pure Js Framework Knockoutjs-->
     <script
       type="text/javascript"
       src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.5.0/knockout-min.js"
     ></script>
-    <script type="text/javascript"></script>
+    <script src="dist/main.js"></script>
   </body>
 </html>
