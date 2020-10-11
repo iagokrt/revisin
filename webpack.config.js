@@ -1,7 +1,7 @@
 const path = require('path')
 
 module.exports = {
-  entry: path.resolve(__dirname, 'index.js'),
+  entry: path.resolve(__dirname, './src/index.js'),
   module: {
     rules: [
       // This tells webpack to import required html files
